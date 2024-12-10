@@ -1,12 +1,11 @@
 Chạy bằng file complied
-```
+
 echo 'Hỡi đồng bào cả nước. Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền  ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc.' | \
   ./piper --model vi_VN-vais1000-medium.onnx --output-raw | \ 
   aplay -r 22050 -f S16_LE -t raw -
-```
+
 Chạy bằng Python
 
-``
 echo 'Hỡi đồng bào cả nước. Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền  ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc.' | \ 
   piper --model vi_VN-vais1000-medium --output-raw | \
   aplay -r 22050 -f S16_LE -t raw -
